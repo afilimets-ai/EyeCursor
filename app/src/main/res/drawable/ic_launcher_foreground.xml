@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="1.1"
+        android:scaleY="1.1"
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Outer Eye outline -->
+        <path
+            android:fillColor="#1DE9B6"
+            android:pathData="M54,34 C36,34 22,46 16,54 C22,62 36,74 54,74 C72,74 86,62 92,54 C86,46 72,34 54,34 Z M54,68 C42.95,68 34,59.05 34,48 C34,46.95 34.08,45.92 34.24,44.92 C37.88,46.22 41.83,47 46,47 C57.05,47 66,38.05 66,27 C67.45,27.18 68.87,27.53 70.24,28.02 C72.63,33.56 74,39.63 74,46 C74,58.15 65.05,68 54,68 Z" />
+        <!-- Iris Circle -->
+        <path
+            android:fillColor="#00E5FF"
+            android:pathData="M54,54m-14,0a14,14 0,1,1 28,0a14,14 0,1,1 -28,0" />
+        <!-- Inner pupil reticle -->
+        <path
+            android:fillColor="#0B132B"
+            android:pathData="M54,54m-7,0a7,7 0,1,1 14,0a7,7 0,1,1 -14,0" />
+        <!-- Center laser dot -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M54,54m-2.5,0a2.5,2.5 0,1,1 5,0a2.5,2.5 0,1,1 -5,0" />
+        <!-- Cursor pointer arrow overlay -->
+        <path
+            android:fillColor="#FFD600"
+            android:strokeColor="#0B132B"
+            android:strokeWidth="1.2"
+            android:pathData="M60,56 L72,76 L66,78 L63,84 L59,82 L62,76 L54,76 Z" />
+    </group>
+</vector>

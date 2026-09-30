@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EyeCursor</string>
+    <string name="accessibility_service_label">EyeCursor Керування поглядом</string>
+    <string name="accessibility_service_description">Служба доступності EyeCursor дозволяє переміщувати курсор поглядом та автоматично здійснювати натискання (кліки) і навігацію на екрані при непрацюючому сенсорі.</string>
+</resources>
